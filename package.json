@@ -1,0 +1,22 @@
+{
+	"name": "@av/scraper",
+	"description": "JAV site scraper",
+	"license": "MIT",
+	"private": true,
+	"version": "0.0.1",
+	"type": "module",
+	"scripts": {
+		"build": "vite build",
+		"dev": "vite"
+	},
+	"dependencies": {
+		"@musakui/scraper": "github:musakui/scraper",
+		"vue": "^3.3.0"
+	},
+	"devDependencies": {
+		"@unocss/reset": "latest",
+		"@vitejs/plugin-vue": "latest",
+		"unocss": "latest",
+		"vite": "latest"
+	}
+}
