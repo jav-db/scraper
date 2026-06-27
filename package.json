@@ -5,6 +5,11 @@
 	"version": "0.0.1",
 	"private": true,
 	"type": "module",
+	"exports": {
+		".": {
+			"import": "./src/index.js"
+		}
+	},
 	"imports": {
 		"#/*": "./src/*"
 	},
@@ -12,6 +17,7 @@
 		"dev": "vite"
 	},
 	"dependencies": {
+		"@musakui/scraper": "^0.7.1"
 	},
 	"devDependencies": {
 		"typescript": "^6.0.0",
